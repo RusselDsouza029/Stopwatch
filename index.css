@@ -23,7 +23,7 @@ body{
     border: 1px solid white;
 }
 
-.button{
+.div-button{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -52,4 +52,31 @@ button{
 button:hover{
     color: black;
     background-color: white;
+}
+
+@media (max-width: 375px){
+    .timerDisplay{
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+        position: relative;
+        left: 15px;
+        bottom: 5px;
+    }
+
+    .div_1{
+        width: 250px;
+    }
+
+    button{
+        width: 50px;
+    }
+
+    .div-button{
+        width: 100%;
+    }
+
+    .resetBTN{
+        margin-right: 30px;
+    }
 }
